@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #e4dccd;
+    --background-rgb: 228 220 205;
+    --surface: rgba(250, 244, 235, 0.76);
+    --surface-rgb: 255 255 255;
+    --surface-solid: #f5efe4;
+    --surface-solid-rgb: 245 239 228;
+    --primary: #4e6640;
+    --primary-rgb: 78 102 64;
+    --accent: #6e5236;
+    --accent-rgb: 110 82 54;
+    --sage: #738149;
+    --sage-rgb: 115 129 73;
+    --text: #252b1f;
+    --text-rgb: 37 43 31;
+    --muted: #5f6651;
+    --muted-rgb: 95 102 81;
+    --border: rgba(78, 102, 64, 0.22);
+    --border-rgb: 78 102 64;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply h-full;
+  }
+
+  body {
+    @apply min-h-full bg-background font-sans text-text antialiased;
+    background-image:
+      radial-gradient(circle at top left, rgba(78, 102, 64, 0.18), transparent 26%),
+      radial-gradient(circle at 78% 18%, rgba(110, 82, 54, 0.16), transparent 24%),
+      radial-gradient(circle at bottom right, rgba(115, 129, 73, 0.18), transparent 24%),
+      linear-gradient(180deg, rgba(248, 242, 232, 0.44), rgba(255, 255, 255, 0));
+    background-attachment: fixed;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply border border-white/35 bg-[rgba(255,255,255,0.38)] backdrop-blur-2xl;
+  }
+
+  .paper-panel {
+    @apply border border-white/45 bg-[rgba(245,239,228,0.9)] backdrop-blur-md;
+  }
+}
