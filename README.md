@@ -24,12 +24,6 @@ Fragment Isles碎片群岛，帮助研究者收集、整理、关联和总结散
 - **Summary 总结生成** — 基于选定碎片生成结构化总结（总结 + Digest + 新Idea）
 - **Markdown 导出** — 支持导出和复制 Markdown 格式内容
 
-## 技术栈
-
-- React 18 + TypeScript + Vite
-- Tailwind CSS + Framer Motion
-- Dexie.js (IndexedDB)
-
 ## 快速开始
 
 ```bash
