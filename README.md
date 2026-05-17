@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-浏览器打开 http://localhost:5173 即可使用。
+浏览器打开 跳出的链接 即可使用。
 
 ## 构建部署
 
