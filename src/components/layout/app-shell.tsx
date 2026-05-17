@@ -70,7 +70,7 @@ export function AppShell({
                     Fragment Isles
                   </p>
                   <p className="text-sm text-muted">
-                    林间碎片，缓慢连接。
+                    整理思绪，激发灵感。
                   </p>
                 </div>
               ) : null}
@@ -128,16 +128,6 @@ export function AppShell({
             })}
           </nav>
 
-          {!sidebarCollapsed ? (
-            <div className="paper-panel mt-6 rounded-[1.5rem] p-4 shadow-paper">
-              <p className="text-[11px] uppercase tracking-[0.22em] text-muted">
-                当前阶段
-              </p>
-              <p className="mt-2 text-sm leading-6 text-text/80">
-                未来模块即使暂未实现也会保留入口。当前骨架只搭建产品结构，不引入后端、AI 或存储能力。
-              </p>
-            </div>
-          ) : null}
         </aside>
 
         <div className="flex min-w-0 flex-1 flex-col">

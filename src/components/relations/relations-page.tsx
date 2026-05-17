@@ -1307,9 +1307,6 @@ export function RelationsPage({
                   <h1 className="font-serif text-[2rem] tracking-[0.02em] text-text md:text-[2.35rem]">
                     Relations 关系
                   </h1>
-                  <p className="mt-1 max-w-2xl text-sm leading-6 text-text/72">
-                    把已保存的 relation 看成群岛之间的桥。主视觉应该先是地图，再是列表。
-                  </p>
                 </div>
               </div>
             </div>
@@ -1538,7 +1535,7 @@ export function RelationsPage({
               <div className="h-2.5 w-10 rounded-full bg-[linear-gradient(90deg,rgba(78,102,64,0.7),rgba(115,129,73,0.16))]" />
               <div>
                 <p className="text-[10px] uppercase tracking-[0.24em] text-muted">Research Islands Map</p>
-                <p className="mt-1 text-sm text-text/74">已保存关系，只在这里查看与整理。</p>
+                <p className="mt-1 text-sm text-text/74">在这里查看与整理建立的关系。</p>
               </div>
             </div>
 

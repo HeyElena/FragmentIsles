@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Compass } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 export function HomePage() {
   return (
@@ -21,7 +21,7 @@ export function HomePage() {
         >
           <div className="max-w-3xl text-center">
             <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-[1.8rem] border border-white/15 bg-white/8 text-[rgba(244,236,219,0.92)] shadow-paper backdrop-blur-sm">
-              <Compass className="h-7 w-7" />
+              <Sparkles className="h-7 w-7" />
             </div>
             <p className="text-[11px] uppercase tracking-[0.34em] text-[rgba(232,223,204,0.66)]">
               Fragment Isles
@@ -32,7 +32,7 @@ export function HomePage() {
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-[rgba(231,223,205,0.80)] md:text-xl md:leading-9">
               面向 AI 科研人的碎片信息工作台。
               <br />
-              在安静、克制、长期可打开的桌面空间里，保存、连接并整理研究中的片段。
+              保存、连接并整理研究中的片段。
             </p>
           </div>
         </motion.div>
